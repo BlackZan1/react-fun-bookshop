@@ -1,0 +1,160 @@
+.List-item {
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 15px;
+    animation: fadeInLeft 1s ease;
+
+    .List-cover {
+        height: 60%;
+        overflow: hidden;
+        width: 100%;
+        background: #f5f5f5;
+        border-radius: 10px;
+
+        & > img {
+            width: 60%;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    }
+
+    .List-info {
+        padding: 5px 10px 5px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 1px 0px 5px #d3d3d3;
+        z-index: 999;
+        height: 80px;
+        overflow: auto;
+
+        & > h2 {
+          font-size: 18px;
+        }
+
+        .List-authors {
+            line-height: 5px;
+            font-weight: 500;
+            color: #a9a9a9;
+        }
+    }
+
+    .List-order {
+      margin: 20px 0px 0px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+        .List-price {
+          font-size: 22px;
+          font-weight: 500;
+          padding: 0px 35px 0px 0px;
+          color: #323232;
+          text-align: center;
+          color: #48BCFD;
+        }
+
+        .List-order-btn {
+            background: rgb(237, 83, 157);
+            border: none;
+            border-radius: 10px;
+            height: 45px;
+            width: 180px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all .4s ease;
+            
+
+            &:hover {
+                background: darken($color: rgb(237, 83, 157), $amount: 15);
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            & > a {
+                color: inherit;
+            }
+        }
+
+        .List-order-btn-go {
+            background: #fff;
+            border: 1px solid rgb(237, 83, 157);
+            border-radius: 10px;
+            height: 45px;
+            width: 180px;
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all .4s ease;
+
+            & > a {
+                color: inherit;
+                transition: all .4s ease;
+            }
+
+            &:hover > a {
+                color: rgb(237, 83, 157);
+            }
+
+            &:focus {
+                outline: none;
+                animation: rubberBand 1s linear;
+            }
+        }
+    }
+
+    .List-empty {
+      font-size: 18px;
+      font-weight: 400;
+      border: 1px solid #323232;
+      border-radius: 10px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      margin: 20px auto 0px;
+    }
+}
+
+@keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }

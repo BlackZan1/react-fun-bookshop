@@ -1,0 +1,93 @@
+.List {
+    z-index: 999;
+    width: 100%;
+
+    .List-form {
+        height: 80px;
+        width: 100%;
+        background: #f5f5f5;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        & > input {
+            width: 25%;
+            height: 50px;
+            border: 1px solid #dcdcdc;
+            border-radius: 25px;
+            text-align: center;
+            transition: all .7s ease;
+            font-size: 20px;
+            color: #323232;
+            font-weight: 400;
+
+            &:hover {
+                width: 60%;
+                filter: drop-shadow(0px 0px 5px #dcdcdc);
+            }
+
+            &:focus {
+                width: 60%;
+                outline: none;
+                filter: drop-shadow(0px 0px 5px #dcdcdc);
+            }
+        }
+
+        & > input::placeholder {
+            color: #a9a9a9;
+        }
+
+        & > button {
+            width: 120px;
+            height: 50px;
+            border-radius: 20px;
+            justify-self: right;
+            position: absolute;
+            right: 5%;
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            background: #48BCFD;
+            border: none;
+            transition: all .4s ease;
+            cursor: pointer;
+
+            &:hover {
+                background: darken($color: #48BCFD, $amount: 25);
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .List-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1% 5%;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translate3d(-50%, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}

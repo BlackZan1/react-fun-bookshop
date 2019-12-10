@@ -1,0 +1,20 @@
+{   
+    "friendUsers": [
+        {"name": "Bruce Lee", "id": "user1", "photos": {"large": "https://pmcvariety.files.wordpress.com/2018/07/enter-the-dragon-bruce-lee.jpg?w=1000&h=562&crop=1"}, "status": "Hello there its my profile"},
+        {"name": "Ferrari Enzo", "id": "user2", "photos": {"large": "https://echo.msk.ru/files/2540564.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Anna Mercury", "id": "user3", "photos": {"large": "https://ichef.bbci.co.uk/images/ic/720x405/p05cqlg0.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Nami Kagure", "id": "user4", "photos": {"large": "https://plamoya.com/bmz_cache/1/155b8ef61fe74af1b5895229a6295866.image.342x500.jpg"}, "status": "Hi!"},
+        {"name": "Luffi D. Monkey", "id":"user5", "photos": {"large": "https://vignette.wikia.nocookie.net/one-piece-games/images/c/c7/40.jpg/revision/latest?cb=20170408083216&path-prefix=ru"}, "status": "Hello there its my profile"},
+        {"name": "Leo Messi", "id": "user6", "photos": {"large": "https://i.eurosport.com/2019/08/04/2650382-54829950-2560-1440.jpg?w=1050"}, "status": "Hello there its my profile"},
+        {"name": "Steve Jobs", "id": "user7", "photos": {"large": "https://img.tamindir.com/2018/02/455903/steve-jobs-gencligi.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Bill Gates", "id": "user8", "photos": {"large": "https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Ray Bradbury", "id": "user9", "photos": {"large": "https://briefly.ru/static/cache/authors/320/xbredberi.jpeg,q1545414311.pagespeed.ic.Fx-8oOderZ.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Ed", "id": "user10", "photos": {"large": "https://yt3.ggpht.com/a/AGF-l78S6HpvYGWhD-_s_qWcWco5iop55atgoXz53g=s900-c-k-c0xffffffff-no-rj-mo"}, "status": "Hello there its my profile"},
+        {"name": "Anthony Robbins", "id": "user11", "photos": {"large": "https://naqyr37xcg93tizq734pqsx1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/tony-robbins-must-read-books.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Pikachu", "id": "user12", "photos": {"large": "https://zpopk.pl/wp-content/uploads/2019/06/maxresdefault.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Cristiano Ronaldo", "id": "user13", "photos": {"large": "https://ep01.epimg.net/deportes/imagenes/2018/06/15/actualidad/1529066910_542434_1529067125_noticia_normal.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Sans", "id": "user14", "photos": {"large": "https://www.meme-arsenal.com/memes/7c8c8f40f083278bd2d56dfc94d4f019.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Jonathan Ive", "id": "user15", "photos": {"large": "https://cdn.lifehacker.ru/wp-content/uploads/2014/06/fad30_14.jpg"}, "status": "Hello there its my profile"},
+        {"name": "Ayperi Olueva", "id": "user95", "photos": {"large": "https://cdn.discordapp.com/attachments/323717538385231872/643488841147219990/IMG_20191111_223358.jpg"}, "status":"Hello there its my profile"}
+    ]
+}

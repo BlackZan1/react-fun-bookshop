@@ -1,0 +1,120 @@
+.Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px;
+    position: relative;
+    width: 100%;
+
+    .Cart-count {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .Cart-list {
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
+        width: 100%;
+
+        .Cart-list-empty {
+            height: 66.2vh;
+            display: flex;
+            align-items: center;
+            font-size: 32px;
+            justify-content: center;
+        }
+    }
+
+    .Cart-price-count {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #48BCFD;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 20px auto;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        padding: 15px 0px;
+    }
+
+    .Cart-bottom {
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 45px 0px;
+
+        .Cart-map {
+            align-self: center;
+            background: #323232;
+            padding-bottom: 15px;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 1px 2px 7px #a9a9a9;
+    
+            & > p {
+                padding: 10px 0px 0px;
+                text-align: center;
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+
+        .Cart-statistics {
+            padding: 150px;
+            font-size: 20px;
+
+            & > p {
+                font-size: 22px;
+                font-weight: 500;
+            }
+
+            & > ol {
+                line-height: 40px;
+                width: 450px;
+
+                span {
+                    text-decoration: underline;
+                }
+
+                & > li {
+                    & > h4 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Cart-pay-btn {
+    background: #ED539D;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    height: 45px;
+    min-width: 150px;
+    cursor: pointer;
+    transition: all .4s ease;
+
+    & > a {
+        color: #fff;
+        padding: 0px 10px 0px 10px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background: darken($color: #ED539D, $amount: 20);
+    }
+}

@@ -1,0 +1,59 @@
+.Cart-modal {
+    background: rgba($color: #000000, $alpha: 0.5);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .Modal-item {
+        background: #fff;
+        height: 30%;
+        width: 30%;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .Modal-body {
+            font-size: 22px;
+            text-align: center;
+
+            & > div {
+                font-size: 32px;
+                font-weight: 500;
+                color: #323232;
+            }
+        }
+
+        .Modal-btn {
+            button {
+                background: #EA4F87;
+                width: 150px;
+                height: 45px;
+                border-radius: 10px;
+                color: #fff;
+                font-weight: 500;
+                font-size: 20px;
+                border: none;
+                margin: 30px 0px 0px;
+                cursor: pointer;
+                transition: all .4s ease;
+
+                &:hover {
+                    background: darken($color: #EA4F87, $amount: 20);
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}

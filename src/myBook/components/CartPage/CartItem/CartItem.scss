@@ -1,0 +1,212 @@
+.CartItem {
+    background: #fafafa;
+    border-radius: 5px 10px 10px 5px;
+    position: relative;
+    width: 50%;
+    margin: 20px 0px;
+
+    .CartItem-body {
+      display: flex;
+      align-items: flex-start;
+      min-height: 200px;
+      width: 100%;
+      overflow: hidden;
+      z-index: 999;
+
+      .CartItem-image {
+        margin: 0px 30px 0px 0px;
+        padding: 15px;
+
+        & > img {
+            border-radius: 10px;
+        }
+      }
+
+      .CartItem-info {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: flex-start;
+        margin: 0px 20px 0px;
+        padding: 0px 0px 20px 0px;
+        width: 45%;
+
+        .CartItem-title {
+            font-size: 22px;
+            color: #323232;
+            font-weight: 500;
+            
+        }
+
+        .CartItem-author {
+            font-size: 18px;
+            color: #a9a9a9;
+            font-weight: 400;
+        }
+      }
+
+      .CartItem-order {
+        align-self: center;
+
+        & > h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #EC539D;
+        }
+      }
+    }
+
+    .CartItem-des {
+      font-size: 18px;
+      font-weight: 300;
+      padding: 15px 15px 55px 15px;
+      animation: fadeInDown .7s ease;
+      z-index: 99;
+    }
+}
+
+.CartItem-delete-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  border: none;
+  background: #B22222;
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .4s ease;
+
+  &:hover {
+    background: darken($color: #B22222, $amount: 15);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.CartItem-show-btn {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background: none;
+  border: 1px solid #48BCFD;
+  border-radius: 10px;
+  color: #000;
+  font-size: 18px;
+  bottom: 20px;
+  transition: all .4s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: #48BCFD;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@keyframes flipOutX {
+    from {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px);
+    }
+  
+    30% {
+      -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+      transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+      transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+      opacity: 0;
+    }
+}
+
+@keyframes bounceOutRight {
+    20% {
+      opacity: 1;
+      -webkit-transform: translate3d(-20px, 0, 0);
+      transform: translate3d(-20px, 0, 0);
+    }
+  
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(2000px, 0, 0);
+      transform: translate3d(2000px, 0, 0);
+    }
+}
+
+@keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20%, 0);
+    transform: translate3d(0, -20%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .CartItem {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .CartItem {
+    width: 90%;
+  }
+}
