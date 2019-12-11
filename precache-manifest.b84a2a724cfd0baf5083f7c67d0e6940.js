@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ce1a74d083c43767ef88e4cfb381c01",
+    "revision": "f8f08e4c17082821d13eb17855d684a2",
     "url": "/funBookShop/index.html"
   },
   {
-    "revision": "33db6417f302f389f74e",
+    "revision": "78578267f3b666e6b867",
     "url": "/funBookShop/static/css/main.0db08d70.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funBookShop/static/js/2.260a5271.chunk.js.LICENSE"
   },
   {
-    "revision": "33db6417f302f389f74e",
-    "url": "/funBookShop/static/js/main.220f8111.chunk.js"
+    "revision": "78578267f3b666e6b867",
+    "url": "/funBookShop/static/js/main.97d218ac.chunk.js"
   },
   {
     "revision": "f65004441b301c7943d6",
