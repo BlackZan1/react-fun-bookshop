@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BlackZan1/funBookShop/static/css/main.0db08d70.chunk.css",
+    "main.js": "/BlackZan1/funBookShop/static/js/main.666a50c7.chunk.js",
+    "main.js.map": "/BlackZan1/funBookShop/static/js/main.666a50c7.chunk.js.map",
+    "runtime-main.js": "/BlackZan1/funBookShop/static/js/runtime-main.4a489914.js",
+    "runtime-main.js.map": "/BlackZan1/funBookShop/static/js/runtime-main.4a489914.js.map",
+    "static/js/2.260a5271.chunk.js": "/BlackZan1/funBookShop/static/js/2.260a5271.chunk.js",
+    "static/js/2.260a5271.chunk.js.map": "/BlackZan1/funBookShop/static/js/2.260a5271.chunk.js.map",
+    "index.html": "/BlackZan1/funBookShop/index.html",
+    "precache-manifest.15c90de009eda74673f75e38707c6a99.js": "/BlackZan1/funBookShop/precache-manifest.15c90de009eda74673f75e38707c6a99.js",
+    "service-worker.js": "/BlackZan1/funBookShop/service-worker.js",
+    "static/css/main.0db08d70.chunk.css.map": "/BlackZan1/funBookShop/static/css/main.0db08d70.chunk.css.map",
+    "static/js/2.260a5271.chunk.js.LICENSE": "/BlackZan1/funBookShop/static/js/2.260a5271.chunk.js.LICENSE",
+    "static/media/loader.gif": "/BlackZan1/funBookShop/static/media/loader.e275bf6b.gif",
+    "static/media/noCoverBook.png": "/BlackZan1/funBookShop/static/media/noCoverBook.6bf10cf8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a489914.js",
+    "static/js/2.260a5271.chunk.js",
+    "static/css/main.0db08d70.chunk.css",
+    "static/js/main.666a50c7.chunk.js"
+  ]
+}
