@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d973cc28e53b1843ac6b05997b0c2bbd",
+    "revision": "36f9641ef0c62b8770e63cbd9d8fdb18",
     "url": "/funBookShop/index.html"
   },
   {
-    "revision": "0f1ebca6cde82d2dd6dd",
+    "revision": "3e784a3ef76f6c3e9547",
     "url": "/funBookShop/static/css/main.0db08d70.chunk.css"
   },
   {
-    "revision": "9f0f4be36db73187b845",
-    "url": "/funBookShop/static/js/2.260a5271.chunk.js"
+    "revision": "0389547afc5590568fc2",
+    "url": "/funBookShop/static/js/2.65df9a92.chunk.js"
   },
   {
     "revision": "6019a2db51c90e97b4859c840427a0d6",
-    "url": "/funBookShop/static/js/2.260a5271.chunk.js.LICENSE"
+    "url": "/funBookShop/static/js/2.65df9a92.chunk.js.LICENSE"
   },
   {
-    "revision": "0f1ebca6cde82d2dd6dd",
-    "url": "/funBookShop/static/js/main.a7c63aa0.chunk.js"
+    "revision": "3e784a3ef76f6c3e9547",
+    "url": "/funBookShop/static/js/main.cabe4654.chunk.js"
   },
   {
     "revision": "f65004441b301c7943d6",
