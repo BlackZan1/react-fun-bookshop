@@ -28,7 +28,7 @@ class Header extends React.Component {
 
         return (
             <div className='Header' style={isAlpha ? {background: 'rgba(50, 50, 50, 1)'} : {background: 'rgba(50, 50, 50, 0.9)'}}>
-                <NavLink to='/'>
+                <NavLink to='/funBookShop'>
                     <h1 className='Header-logo'>
                         <span style={{color: '#ED539D'}}>my</span>
                         <span style={{color: '#48BCFD'}}>B</span>
@@ -37,7 +37,7 @@ class Header extends React.Component {
                 </NavLink>
 
                 <div className='Header-container'>
-                    <NavLink to='/cart'>
+                    <NavLink to='/funBookShop/cart'>
                         <div className='Header-cart'>
                             <img src={cart} alt="Loading..." style={{width: '25px'}}/>
                         </div>

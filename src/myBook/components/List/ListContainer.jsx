@@ -14,8 +14,6 @@ class ListContainer extends React.Component {
     }
 
     componentDidMount() {
-        console.log('Container is loaded')
-
         if(this.props.value === '') return null;
         else {
             this.props.getBooks(this.props.value);
