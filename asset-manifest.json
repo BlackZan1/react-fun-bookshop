@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/funBookShop/static/css/main.0db08d70.chunk.css",
-    "main.js": "/funBookShop/static/js/main.cabe4654.chunk.js",
-    "main.js.map": "/funBookShop/static/js/main.cabe4654.chunk.js.map",
+    "main.js": "/funBookShop/static/js/main.dccd2731.chunk.js",
+    "main.js.map": "/funBookShop/static/js/main.dccd2731.chunk.js.map",
     "runtime-main.js": "/funBookShop/static/js/runtime-main.ebfef857.js",
     "runtime-main.js.map": "/funBookShop/static/js/runtime-main.ebfef857.js.map",
     "static/js/2.65df9a92.chunk.js": "/funBookShop/static/js/2.65df9a92.chunk.js",
     "static/js/2.65df9a92.chunk.js.map": "/funBookShop/static/js/2.65df9a92.chunk.js.map",
     "index.html": "/funBookShop/index.html",
-    "precache-manifest.e0307635998e04ae3870db896565b022.js": "/funBookShop/precache-manifest.e0307635998e04ae3870db896565b022.js",
+    "precache-manifest.b317c85eed499032b728a27457de5985.js": "/funBookShop/precache-manifest.b317c85eed499032b728a27457de5985.js",
     "service-worker.js": "/funBookShop/service-worker.js",
     "static/css/main.0db08d70.chunk.css.map": "/funBookShop/static/css/main.0db08d70.chunk.css.map",
     "static/js/2.65df9a92.chunk.js.LICENSE": "/funBookShop/static/js/2.65df9a92.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ebfef857.js",
     "static/js/2.65df9a92.chunk.js",
     "static/css/main.0db08d70.chunk.css",
-    "static/js/main.cabe4654.chunk.js"
+    "static/js/main.dccd2731.chunk.js"
   ]
 }
