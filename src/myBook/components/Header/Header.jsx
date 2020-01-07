@@ -28,7 +28,7 @@ class Header extends React.Component {
 
         return (
             <div className='Header' style={isAlpha ? {background: 'rgba(50, 50, 50, 1)'} : {background: 'rgba(50, 50, 50, 0.9)'}}>
-                <NavLink to='/funBookShop'>
+                <NavLink to='/react-fun-bookshop'>
                     <h1 className='Header-logo'>
                         <span style={{color: '#ED539D'}}>my</span>
                         <span style={{color: '#48BCFD'}}>B</span>
