@@ -37,7 +37,7 @@ class Header extends React.Component {
                 </NavLink>
 
                 <div className='Header-container'>
-                    <NavLink to='/funBookShop/cart'>
+                    <NavLink to='/cart'>
                         <div className='Header-cart'>
                             <img src={cart} alt="Loading..." style={{width: '25px'}}/>
                         </div>

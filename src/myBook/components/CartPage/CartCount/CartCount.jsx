@@ -15,7 +15,7 @@ export default ({price, cartItems, toggleIsOpen}) => {
                 {cartItems.length >= 1 ?
                     'Оплатить'
                     :
-                    <NavLink to='/funBookShop/'>
+                    <NavLink to='/funBookShop'>
                         Пора прикупить книги
                     </NavLink>
                 }
