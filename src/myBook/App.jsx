@@ -15,8 +15,8 @@ class App extends React.Component {
                     <HeaderContainer />
 
                     <Route path='/cart' render={() => ( <CartPageContainer /> )}/>
-
-                    <Route path='/funBookShop/' render={() => (
+                    
+                    <Route path='/react-to-do-list' render={() => (
                         <>
                             <IntroContainer />
                             <ListContainer />
