@@ -15,7 +15,7 @@ export default ({price, cartItems, toggleIsOpen}) => {
                 {cartItems.length >= 1 ?
                     'Оплатить'
                     :
-                    <NavLink to='/react-to-do-list'>
+                    <NavLink to='/react-fun-bookshop'>
 
                         Пора прикупить книги
                     </NavLink>
