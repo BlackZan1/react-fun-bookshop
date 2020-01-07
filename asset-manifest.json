@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-fun-bookshop/static/css/main.0db08d70.chunk.css",
-    "main.js": "/react-fun-bookshop/static/js/main.448aa716.chunk.js",
-    "main.js.map": "/react-fun-bookshop/static/js/main.448aa716.chunk.js.map",
+    "main.js": "/react-fun-bookshop/static/js/main.4478300a.chunk.js",
+    "main.js.map": "/react-fun-bookshop/static/js/main.4478300a.chunk.js.map",
     "runtime-main.js": "/react-fun-bookshop/static/js/runtime-main.83915452.js",
     "runtime-main.js.map": "/react-fun-bookshop/static/js/runtime-main.83915452.js.map",
     "static/js/2.260a5271.chunk.js": "/react-fun-bookshop/static/js/2.260a5271.chunk.js",
     "static/js/2.260a5271.chunk.js.map": "/react-fun-bookshop/static/js/2.260a5271.chunk.js.map",
     "index.html": "/react-fun-bookshop/index.html",
-    "precache-manifest.ea0f51cd533d6a69e59fa638e0631059.js": "/react-fun-bookshop/precache-manifest.ea0f51cd533d6a69e59fa638e0631059.js",
+    "precache-manifest.0e31fc4002812ede4aea15c381d9aef8.js": "/react-fun-bookshop/precache-manifest.0e31fc4002812ede4aea15c381d9aef8.js",
     "service-worker.js": "/react-fun-bookshop/service-worker.js",
     "static/css/main.0db08d70.chunk.css.map": "/react-fun-bookshop/static/css/main.0db08d70.chunk.css.map",
     "static/js/2.260a5271.chunk.js.LICENSE": "/react-fun-bookshop/static/js/2.260a5271.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.83915452.js",
     "static/js/2.260a5271.chunk.js",
     "static/css/main.0db08d70.chunk.css",
-    "static/js/main.448aa716.chunk.js"
+    "static/js/main.4478300a.chunk.js"
   ]
 }
